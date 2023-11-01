@@ -1,0 +1,769 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.yellowspace_sansk {
+  height: 4vw;
+  background-color: #FAFF00;
+  font-family: Rubik;
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+      padding: 2vh 0 2vh 0;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+     box-sizing: border-box;
+     width: 100%;
+}
+
+.fifteen_sansk {
+  color: red;
+}
+
+
+.bluespace_sansk {
+    height: 6vw;
+      background: var(--blue, #173E80);
+      font-family: Rubik;
+      /* font-size: 2vw; */
+      font-weight: 700;
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      
+}
+
+.leftside_blue {
+ width: 25%;
+ display: flex;
+ padding: 1rem;
+}
+
+.address_sansk {
+  width: 40%;
+  color: #fff;
+  font-size:  3rem;
+  padding:1rem
+  /* margin-left:  12vw; */
+  
+}
+
+.logo_blue_sansk {
+  max-width: 70%;
+  max-height: 70%;
+
+
+} 
+
+.rightside_blue {
+width: 35%;
+display: flex;
+}
+.rightside_blue_icon{
+padding: 1rem;
+padding-right: 0.2rem;
+font-size: 3rem;
+color: white;
+}
+.number{
+  color:white;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width:1612px){
+  .bluespace_sansk {
+    height: 6vw;
+      background: var(--blue, #173E80);
+      font-family: Rubik;
+      /* font-size: 2vw; */
+      font-weight: 600;
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+}
+.leftside_blue {
+ width: 25%;
+ display: flex;
+ padding: 1rem;
+}
+.address_sansk {
+  width: 40%;
+  color: #fff;
+  font-size:  2.5rem;
+  padding:1rem
+  /* margin-left:  12vw; */
+  
+}
+.logo_blue_sansk {
+  max-width: 70%;
+  max-height: 70%;
+} 
+.rightside_blue {
+width: 35%;
+display: flex;
+}
+.rightside_blue_icon{
+padding: 1rem;
+padding-right: 0.2rem;
+padding-left: 0;
+font-size: 2.5rem;
+color: white;
+}
+.number{
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
+}
+}
+@media screen and (max-width:1344px){
+  .bluespace_sansk {
+    height: 6vw;
+      background: var(--blue, #173E80);
+      font-family: Rubik;
+      /* font-size: 2vw; */
+      font-weight: 600;
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+}
+.leftside_blue {
+ width: 25%;
+ display: flex;
+ padding: 0.8rem;
+}
+.address_sansk {
+  width: 40%;
+  color: #fff;
+  font-size:  2rem;
+  padding:1rem
+  /* margin-left:  12vw; */
+  
+}
+.logo_blue_sansk {
+  max-width: 80%;
+  max-height: 80%;
+} 
+.rightside_blue {
+width: 35%;
+display: flex;
+}
+.rightside_blue_icon{
+padding: 1rem;
+padding-left: 0;
+padding-right: 0.2rem;
+font-size: 2rem;
+color: white;
+}
+.number{
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
+}
+}
+@media screen and (max-width:1150px) {
+  .bluespace_sansk {
+    height: 6vw;
+      background: var(--blue, #173E80);
+      font-family: Rubik;
+      /* font-size: 2vw; */
+      font-weight: 600;
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+}
+.leftside_blue {
+ width: 15%;
+ display: flex;
+ padding: 0.8rem;
+}
+.address_sansk {
+  width: 50%;
+  color: #fff;
+  font-size:  2rem;
+  padding:1rem
+  /* margin-left:  12vw; */
+  
+}
+.logo_blue_sansk {
+  max-width: 80%;
+  max-height: 80%;
+} 
+.rightside_blue {
+width: 35%;
+display: flex;
+}
+.rightside_blue_icon{
+padding: 1rem;
+padding-left: 0;
+padding-right: 0.2rem;
+font-size: 2rem;
+color: white;
+}
+.number{
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
+}
+}
+@media screen and (max-width:1150px) {
+  .bluespace_sansk {
+    height: 8vw;
+      background: var(--blue, #173E80);
+      font-family: Rubik;
+      /* font-size: 2vw; */
+      font-weight: 500;
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+}
+.leftside_blue {
+ width: 15%;
+ display: flex;
+ padding: 0.8rem;
+}
+.address_sansk {
+  width: 60%;
+  color: #fff;
+  font-size:  2rem;
+  padding:0.5rem
+  /* margin-left:  12vw; */
+  
+}
+.logo_blue_sansk {
+  max-width: 80%;
+  max-height: 80%;
+} 
+.rightside_blue {
+width: 25%;
+display: flex;
+}
+.rightside_blue_icon{
+padding: 0.5rem;
+padding-left: 0;
+padding-right: 0.5rem;
+font-size: 2rem;
+color: white;
+}
+.number{
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+}
+@media screen and (max-width:896px) {
+  .bluespace_sansk {
+    height: 10vw;
+      background: var(--blue, #173E80);
+      font-family: Rubik;
+      /* font-size: 2vw; */
+      font-weight: 500;
+      box-sizing: border-box;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+}
+.leftside_blue {
+ width: 15%;
+ display: flex;
+ padding: 0.8rem;
+}
+.address_sansk {
+  width: 60%;
+  color: #fff;
+  font-size:  2rem;
+  padding:0.5rem
+  /* margin-left:  12vw; */
+  
+}
+.logo_blue_sansk {
+  max-width: 80%;
+  max-height: 80%;
+} 
+.rightside_blue {
+width: 25%;
+display: flex;
+}
+.rightside_blue_icon{
+padding: 0rem;
+padding-left: 0;
+padding-right: 0rem;
+font-size: 1.8rem;
+color: white;
+}
+.number{
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+}
+@media screen and (max-width:800px){
+  
+.leftside_blue {
+  width: 15%;
+  display: flex;
+  padding: 0.5rem;
+ }
+ .logo_blue_sansk {
+  max-width: 90%;
+  max-height: 90%;
+} 
+.address_sansk {
+  width: 60%;
+  color: #fff;
+  font-size:  1.5rem;
+  padding:0.5rem
+  /* margin-left:  12vw; */
+  
+}
+  .rightside_blue_icon{
+  padding: -1rem;
+  padding-top: 0rem;
+    font-size: 4rem;
+    color: white;
+    }.number{
+      font-size: 1.5rem;
+      text-decoration: none;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+}
+@media screen and (max-width:730px){
+  
+  .leftside_blue {
+    width: 15%;
+    display: flex;
+    padding: 0.5rem;
+   }
+   .logo_blue_sansk {
+    max-width: 90%;
+    max-height: 90%;
+  } 
+   
+.rightside_blue {
+  width: 25%;
+  display: flex;
+  }
+  .rightside_blue_icon{
+  padding: 0rem;
+  padding-left: 0;
+  padding-right: 0rem;
+  font-size: 2.5rem;
+  color: white;
+  }
+  .number{
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  }
+  @media screen and (max-width:690px){
+  
+    .leftside_blue {
+      width: 15%;
+      display: flex;
+      padding: 0.5rem;
+     }
+     .logo_blue_sansk {
+      max-width: 90%;
+      max-height: 90%;
+    } 
+     
+  .rightside_blue {
+    width: 25%;
+    display: flex;
+    }
+    .rightside_blue_icon{
+    padding: 0rem;
+    padding-left: 0;
+    padding-right: 0rem;
+    font-size: 2.5rem;
+    color: white;
+    }
+    .number{
+      font-size: 1rem;
+      text-decoration: none;
+      padding-top: 0.5rem;
+      padding-bottom: 1rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    }
+    @media screen and (max-width:800px){
+  
+      .leftside_blue {
+        width: 15%;
+        display: flex;
+        padding: 0.5rem;
+       }
+       .logo_blue_sansk {
+        max-width: 90%;
+        max-height: 90%;
+      } 
+      .address_sansk {
+        width: 60%;
+        color: #fff;
+        font-size:  1.5rem;
+        padding:0.5rem
+        /* margin-left:  12vw; */
+        
+      }
+        .rightside_blue_icon{
+        padding: -1rem;
+        padding-top: 0rem;
+          font-size: 4rem;
+          color: white;
+          }.number{
+            font-size: 1.5rem;
+            text-decoration: none;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+          }
+      }
+      @media screen and (max-width:730px){
+        
+        .leftside_blue {
+          width: 15%;
+          display: flex;
+          padding: 0.5rem;
+         }
+         .logo_blue_sansk {
+          max-width: 90%;
+          max-height: 90%;
+        } 
+         
+      .rightside_blue {
+        width: 25%;
+        display: flex;
+        }
+        .rightside_blue_icon{
+        padding: 0rem;
+        padding-left: 0;
+        padding-right: 0rem;
+        font-size: 2.5rem;
+        color: white;
+        }
+        .number{
+          font-size: 1.3rem;
+          text-decoration: none;
+          padding-top: 0.5rem;
+          padding-bottom: 1rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        }
+        }
+        @media screen and (max-width:540px){
+        
+          .leftside_blue {
+            width: 15%;
+            display: flex;
+            padding: 0.5rem;
+           }
+           .logo_blue_sansk {
+            max-width: 90%;
+            max-height: 90%;
+          } 
+          .address_sansk {
+            width: 57%;
+            color: #fff;
+            font-size:  1.3rem;
+            padding:0.5rem
+            /* margin-left:  12vw; */
+            
+          }
+        .rightside_blue {
+          width: 28%;
+          display: flex;
+          }
+          .rightside_blue_icon{
+          padding: 0rem;
+          padding-left: 0;
+          padding-right: 0rem;
+          font-size: 2.5rem;
+          color: white;
+          }
+          .number{
+            font-size: 1rem;
+            text-decoration: none;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0.2rem;
+            padding-right: 0.5rem;
+          }
+          }
+          @media screen and (max-width:470px){
+        
+            .leftside_blue {
+              width: 15%;
+              display: flex;
+              padding: 0.5rem;
+             }
+             .logo_blue_sansk {
+              max-width: 90%;
+              max-height: 90%;
+            } 
+            .address_sansk {
+              width: 57%;
+              color: #fff;
+              font-size:  1.1rem;
+              padding:0.5rem
+              /* margin-left:  12vw; */
+              
+            }
+          .rightside_blue {
+            width: 28%;
+            display: flex;
+            }
+            .rightside_blue_icon{
+            padding: 0rem;
+            padding-left: 0;
+            padding-right: 0rem;
+            font-size: 1.7rem;
+            color: white;
+            }
+            .number{
+              font-size: 0.9rem;
+              text-decoration: none;
+              padding-top: 0.4rem;
+              padding-bottom: 0.3rem;
+              padding-left: 0.2rem;
+              padding-right: 0.3rem;
+            }
+            }
+            @media screen and (max-width:400px){
+        
+              .leftside_blue {
+                width: 14%;
+                display: flex;
+                padding: 0.3rem;
+               }
+               .logo_blue_sansk {
+                max-width: 90%;
+                max-height: 90%;
+              } 
+              .address_sansk {
+                width: 58%;
+                color: #fff;
+                font-size:  1rem;
+                padding:0.3rem
+                /* margin-left:  12vw; */
+                
+              }
+            .rightside_blue {
+              width: 28%;
+              display: flex;
+              }
+              .rightside_blue_icon{
+              padding: 0rem;
+              padding-left: 0;
+              padding-right: 0rem;
+              font-size: 1.5rem;
+              color: white;
+              }
+              .number{
+                font-size: 0.6rem;
+                text-decoration: none;
+                padding-top: 0.4rem;
+                padding-bottom: 0.3rem;
+                padding-left: 0.2rem;
+                padding-right: 0.3rem;
+              }
+              }
+              @media screen and (max-width:350px){
+        
+                .leftside_blue {
+                  width: 14%;
+                  display: flex;
+                  padding: 0.3rem;
+                 }
+                 .logo_blue_sansk {
+                  max-width: 90%;
+                  max-height: 90%;
+                } 
+                .address_sansk {
+                  width: 57%;
+                  color: #fff;
+                  font-size:  0.7rem;
+                  padding:0.2rem
+                  /* margin-left:  12vw; */
+                  
+                }
+              .rightside_blue {
+                width: 29%;
+                display: flex;
+                }
+                .rightside_blue_icon{
+                padding: 0rem;
+                padding-left: 0;
+                padding-right: 0rem;
+                font-size: 1rem;
+                color: white;
+                }
+                .number{
+                  font-size: 0.6rem;
+                  text-decoration: none;
+                  padding-top: 0.3rem;
+                  padding-bottom: 0.2rem;
+                  padding-left: 0.1rem;
+                  padding-right: 0.1rem;
+                }
+                }
+/* @media screen and (max-width: 850px) {
+  .yellowspace_sansk {
+    height: 4vw;
+    font-size: 3vw;
+  }
+} */
+.whatsapp_sansk {
+  position: fixed;
+  background-color:#fff;
+  border-radius:7px;
+  bottom: 3%;
+  right: 3%;
+  /* top: 95%;
+  left: 95%; */
+}
+.whatsapp_sansk_icon{
+  color:#09bc00;
+  background:white;
+  border-radius:7px;
+  font-size:5rem
+}
+@media screen and (max-width:800px){
+  .whatsapp_sansk {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    /* top: 95%;
+    left: 95%; */
+  }
+  .whatsapp_sansk_icon{
+    color:#09bc00;
+    font-size:3.5rem
+  }
+}
+@media screen and (max-width:600px){
+  .whatsapp_sansk {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    /* top: 95%;
+    left: 95%; */
+  }
+  .whatsapp_sansk_icon{
+    color:#09bc00;
+    font-size:3rem
+  }
+}
+@media screen and (max-width:400px){
+  .whatsapp_sansk {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    /* top: 95%;
+    left: 95%; */
+  }
+  .whatsapp_sansk_icon{
+    color:#09bc00;
+    font-size:2rem
+  }
+}
+@media screen and (max-width: 850px) {
+  .yellowspace_sansk {
+    height: 5vw;
+    font-size: 4vw;
+  }
+}
+
+/* @media screen and (max-width: 900px) {
+  .bluespace_sansk {
+    height: 8vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .rightside_blue {
+    font-size: 2.2vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bluespace_sansk {
+    height: 10vh;
+  }
+
+    .leftside_blue {
+      margin: 3vh 0 1vh 3vw;
+  
+    }
+} */

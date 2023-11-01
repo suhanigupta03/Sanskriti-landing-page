@@ -1,0 +1,109 @@
+.section_four_sansk {
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section_four_text1 {
+    color: #2F2F2F;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 3.5vh;
+        font-style: normal;
+        font-weight: 600;
+        /* margin-bottom: 2vh;
+        margin-top: 4vh; */
+        margin: 4vh 0 2vh  0;
+       
+}
+
+.section_four_text2 {
+    color: #2F2F2F;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 2.5vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        /* margin-bottom: 1.5vh; */
+        margin: 0 0 1.5vh  0;
+}
+
+.box1_section4 {
+    background: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 3.4vh;
+        font-style: normal;
+        font-weight: 800;
+        margin-bottom: 2vh;
+        width: 55%;
+}
+.box2_section4 {
+    border-radius: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        background: var(--cta, #FC4C00);
+        box-shadow: 0px 1px 0px 1px rgba(255, 255, 255, 0.20) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 3.9vh;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 1.5vh;
+        width: 55%;
+        padding: 1vh 0 1vh 0;
+        text-decoration: none;
+}
+
+.section_four_text3 {
+    color: #2F2F2F;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 2.5vh;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        /* margin-bottom: 4vh; */
+        margin: 0  0 2vh  0;
+}
+
+.section_four_text4 {
+    color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 8vh;
+        font-style: normal;
+        font-weight: 600;
+        /* margin-bottom: 5vh; */
+        margin: 0  0 2vh  0;
+}
+
+.red_timer {
+    color: #FF0000;
+}
+
+.box3_section4 {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: var(--gradient, linear-gradient(180deg, #003286 0%, #003183 100%));
+        width: 100%;
+        margin-bottom: 0;
+        padding: 2vh 0 2vh  0;
+        color: #FFF;
+}

@@ -1,0 +1,109 @@
+.section_five_sansk {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.heading_section5 {
+    color: #021640;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 5vh;
+        font-style: normal;
+        font-weight: 700;
+        margin:4vh 0 6vh 0;
+}
+
+.images_box_section5 {
+    display: flex;
+    width: 70%;
+    margin-bottom: 5.5vh;
+}
+
+.image_section5 {
+    max-height: 100%;
+    width: 30%;
+    padding-left: 2vw;
+}
+
+.orange_space_section5 {
+    background: var(--cta, #FC4C00);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    
+}
+
+.column1_hurryup {
+    color: #FFF;
+        font-family: Rubik;
+        font-size: 3.5vh;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1.218px;
+        text-transform: uppercase;
+        margin-right: 4vw;
+        margin-left: 1vw;
+}
+.column2_hurryup {
+    color: #FFF;
+        font-family: Rubik;
+        font-size: 3.5vh;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1.218px;
+        text-transform: uppercase;
+        margin-right: 4vw;
+        
+}
+.column3_hurryup {
+    color: #FFF;
+        font-family: Rubik;
+        font-size: 3.5vh;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1.218px;
+        text-transform: uppercase;
+}
+
+@media screen and (max-width: 950px) {
+    .column1_hurryup {
+        font-size: 2.8vh;
+    }
+    .column2_hurryup {
+        font-size: 2.8vh;
+    }
+    .column3_hurryup {
+        font-size: 2.8vh;
+    }
+
+    .images_box_section5 {
+        width: 85%;
+    }
+
+    /* .image_section5 {
+        width: 34%;
+    } */
+}
+@media screen and (max-width: 719px) {
+    .column1_hurryup {
+        font-size: 2vh;
+    }
+    .column2_hurryup {
+        font-size: 2vh;
+    }
+    .column3_hurryup {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .images_box_section5 {
+            width: 95%;
+        }
+}
